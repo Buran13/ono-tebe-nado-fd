@@ -46,6 +46,7 @@
 
 .address {
     display: flex;
+    
     flex-direction: column; 
     font-style: inherit;
     text-underline-offset: 5px;
