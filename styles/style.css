@@ -10,7 +10,6 @@
 .header__menu {
     display: flex;
     align-items: center;
-    list-style: circle;
     font-size: 18px;
     font-weight: 1px;
     text-underline-offset: 3.9px;
@@ -18,8 +17,14 @@
 
 .header__links-list {
     display: flex;
+    list-style: circle;
     height: 25%;
     gap: 14px;
+}
+
+.header__links-list-item {
+    margin-left: 15px;
+    padding-left: 10px;
 }
 
 .header__links-list-item_no-bullit {
