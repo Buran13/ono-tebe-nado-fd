@@ -159,6 +159,10 @@
   color: white;
 }
 
+.card__link {
+  text-decoration: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -213,7 +217,6 @@
 
 .about {
   padding: 0 24px 180px 24px;
-  min-height: 595px;
 }
 
 .about__column {
