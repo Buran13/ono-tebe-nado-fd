@@ -184,16 +184,13 @@
 }
 
 .card__title {
-  height: 100%;
-  padding: 48px 40px 0 40px;
-}
-
-.card__title-text {
   text-transform: uppercase;
   text-decoration: underline 1px;
   text-underline-offset: 3px;
   font-size: 22px;
   font-weight: 700;
+  height: 100%;
+  padding: 48px 40px 0 40px;
 }
 
 .card__text {
@@ -216,7 +213,6 @@
 
 .about {
   padding: 0 24px 180px 24px;
-  width: 1052px;
   min-height: 595px;
 }
 
